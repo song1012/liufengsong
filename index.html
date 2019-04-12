@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var a = [2,3,1,4,7,9]
+        for(var i = 0;i < a.length-1;i++){
+        for(var j = 0;j< a.length-1-i;j++){
+           if(a[j]>a[j+1]){
+                var menp = a[j];
+                a[j] = a[j+1];
+                a[j+1]= menp;
+           }
+        }
+    }
+    console.log(a);
+
+		</script>
+	</body>
+</html>
